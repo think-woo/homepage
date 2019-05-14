@@ -1,0 +1,190 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:'나눔고딕', 'NanumGothic', '맑은고딕', Gothic
+}
+
+body{
+  width:960px;
+  margin: 0 auto;
+  background-color: #e6e6e6;
+}
+
+#page-wrapper{
+  background-color: #ffffff;
+  margin: 40px 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px rgba(100,100,100,0.3);
+}
+
+#main-header{
+  padding: 40px 50px;
+  background-image: url(../img/cheers.jpg);
+  background-position: 240px;
+  background-size: 160px;
+  background-repeat: no-repeat;
+}
+
+.master-title{
+  font-size: 30px;
+  color: #181818;
+}
+
+.master-description{
+  font-size: 15px;
+  color: #383838;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+#main-navigation{
+  border-top: solid 1px #c8c8c8;
+  border-bottom: solid 1px #c8c8c8;
+  height: 40px;
+}
+
+.outer-menu-item{
+  float: left;
+  list-style-type: None;
+}
+
+.menu-title{
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 5px 20px;
+  color: #000000;
+  border-right: solid 1px #c8c8c8;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.menu-title:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.menu-title:active{
+  color: yellow;
+}
+
+
+#content{
+  overflow: hidden;
+}
+
+#main-section{
+  float: left;
+  width: 710px;
+}
+
+#main-aside{
+  float: right;
+  width: 200px;
+}
+
+article{
+  padding: 0px 10px 20px 10px;
+  border-bottom: solid 1px #c8c8c8;
+}
+
+.article-header{
+    padding: 10px 0px;
+}
+
+.article-title{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.article-type{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.article-body{
+  font-size: 14px;
+  text-align: justify;
+}
+
+.article-body  *{
+  margin-top: 6px;
+}
+
+.article-body ul{
+  padding-left: 20px;
+}
+
+.article-body ol{
+  padding-left: 20px;
+}
+
+img[src="img/I_soul_you.jpg"]{
+  width: 100%;
+}
+
+figcaption{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+cite{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.card{
+  transform-style: preserve-3d;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  position: relative;
+}
+
+.card:hover{
+  transform: rotateY(180deg);
+}
+
+.side{
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.back{
+  transform: rotateY(180deg);
+  position: absolute;
+  bottom: 150px;
+  left: 150px;
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+a{
+  color: #000000;
+}
+
+.aside-list{
+  padding: 10px 0px 30px 0px;
+}
+
+.aside-list h3{
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.aside-list li{
+  display: block;
+  margin-top: 5px;
+}
+
+footer{
+  font-size: 10px;
+  color: #666666;
+  margin: 5px 0px;
+}
