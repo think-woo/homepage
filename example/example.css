@@ -1,0 +1,64 @@
+#frame{
+  border: solid 2px black;
+  width: 1250px;
+  height: 320px;
+  position: absolute;
+}
+
+#myReason{
+  display: inline-block;
+  width: 340px;
+  height: 240px;
+  position: relative;
+}
+
+.line{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  height: 48px;
+  line-height: 48px;
+}
+
+svg{
+  width: 750px;
+  height: 200px;
+  border: solid 2px black;
+  position: absolute;
+  left: 350px;
+}
+
+rect{
+  fill: red;
+  stroke: black;
+  stroke-width: 5px;
+}
+
+
+p{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 10px;
+}
+
+
+h1{
+  left: 450px;
+  position: relative;
+}
+
+/*
+div{
+  top: 200px;
+}
+
+svg{
+  position: relative;
+  top:200px;
+  left: 320px;
+}
+
+h1{
+  left: 450px;
+  top: 190px;
+  position: relative;
+}
+*/
